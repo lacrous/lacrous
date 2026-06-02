@@ -6,9 +6,6 @@ A modern, futuristic portfolio website for **Hassan El-Deghidy** (also known as 
 
 ![Portfolio Preview](./preview.png)
 
-## Live Demo
-
-[https://3yzegjolo3s66.kimi.page](https://3yzegjolo3s66.kimi.page)
 
 ## Features
 
