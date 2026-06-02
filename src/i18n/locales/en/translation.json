@@ -1,0 +1,321 @@
+{
+  "stats": {
+    "projects": "Projects Completed",
+    "years": "Years Experience",
+    "clients": "Happy Clients",
+    "products": "Ecosystem Products"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "ecosystem": "Ecosystem",
+    "skills": "Skills",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "pretitle": "Also known as Storm · Lacrous",
+    "name": "Hassan El-Deghidy",
+    "role": "Software Developer & CS Student",
+    "tagline": "I don't build apps. I build ecosystems.",
+    "cta_ecosystem": "View Ecosystem",
+    "cta_contact": "Get In Touch",
+    "scroll": "Scroll"
+  },
+  "about": {
+    "title": "About Me",
+    "bio_primary": "I am a university student specializing in programming with a strong focus on building real-world software systems and long-term digital products. My main goal is not just writing code, but designing and building complete ecosystems and startups that can scale into real companies.",
+    "bio_secondary": "I prefer working on architecture, system design, and product development rather than small isolated projects.",
+    "languages_title": "Languages",
+    "languages": {
+      "arabic": "Arabic (Native)",
+      "english": "English (Fluent)",
+      "russian": "Russian (Intermediate)"
+    },
+    "qualities_title": "Core Strengths",
+    "qualities": ["Creative", "Self-Motivated", "Problem Solver", "Persistent", "Visionary", "Independent"],
+    "goals_title": "Goals & Ambitions",
+    "goals": [
+      {
+        "title": "Master Web Development",
+        "description": "Continuously improve technical skills and learn new frameworks.",
+        "icon": "target"
+      },
+      {
+        "title": "Build Nurovia Ecosystem",
+        "description": "Design a modular software ecosystem company with multiple products.",
+        "icon": "rocket"
+      },
+      {
+        "title": "Entrepreneurship",
+        "description": "Create scalable digital products with real-world impact.",
+        "icon": "lightbulb"
+      },
+      {
+        "title": "Global Reach",
+        "description": "Expand projects internationally, sharing innovative web solutions.",
+        "icon": "globe"
+      }
+    ]
+  },
+  "vision": {
+    "title": "My Vision",
+    "quote": "My vision is to build a modular software ecosystem company where multiple products are managed under a central intelligent system.",
+    "label": "This vision is currently being developed under the name",
+    "ecosystem_name": "Nurovia Ecosystem"
+  },
+  "ecosystem": {
+    "title": "Nurovia Ecosystem",
+    "subtitle": "A modular software ecosystem where multiple products are managed under a central intelligent system.",
+    "status": "Active Development",
+    "products": [
+      {
+        "name": "Nurovia OS",
+        "description": "The core operating system of the ecosystem. Manages all internal projects, handles system orchestration and shared services, and acts as the backbone for scalability.",
+        "gradient": "blue"
+      },
+      {
+        "name": "Nurovia",
+        "description": "The main company platform. Official company identity, entry point for all services, product hub and ecosystem gateway.",
+        "gradient": "purple"
+      },
+      {
+        "name": "Xeno",
+        "description": "A social platform (MVP stage). Features authentication, posting and interaction, with real-time communication structure in development.",
+        "gradient": "cyan"
+      },
+      {
+        "name": "Mika",
+        "description": "Anime tracking platform. Watchlist management, episode tracking, ratings and user progress system.",
+        "gradient": "rose"
+      },
+      {
+        "name": "MediCore",
+        "description": "Hospital management system. Patient record management, staff & department handling, medical workflow optimization.",
+        "gradient": "emerald"
+      },
+      {
+        "name": "N-Studio",
+        "description": "AI-powered content creation system. Automated YouTube content generation, script creation, AI-assisted production pipeline.",
+        "gradient": "amber"
+      }
+    ]
+  },
+  "skills": {
+    "title": "Tech Stack",
+    "categories": {
+      "frontend": {
+        "name": "Frontend",
+        "skills": [
+          { "name": "HTML", "level": 95 },
+          { "name": "CSS", "level": 92 },
+          { "name": "JavaScript", "level": 88 },
+          { "name": "React / React Native", "level": 82 },
+          { "name": "Tailwind CSS / Bootstrap", "level": 85 }
+        ]
+      },
+      "backend": {
+        "name": "Backend",
+        "skills": [
+          { "name": "Node.js (Express.js)", "level": 75 },
+          { "name": "PHP", "level": 70 }
+        ]
+      },
+      "databases": {
+        "name": "Databases",
+        "skills": [
+          { "name": "MongoDB", "level": 78 },
+          { "name": "MySQL", "level": 80 }
+        ]
+      },
+      "other": {
+        "name": "Other",
+        "skills": [
+          { "name": "Python", "level": 65 }
+        ]
+      }
+    },
+    "focus_title": "Current Focus",
+    "focus_items": [
+      "Building Nurovia Ecosystem architecture",
+      "Developing MVP versions of core products",
+      "Designing scalable backend systems",
+      "Moving from concepts to production-ready systems"
+    ]
+  },
+  "journey": {
+    "title": "My Journey",
+    "items": [
+      {
+        "year": "2020",
+        "title": "Started Programming Journey",
+        "description": "Began learning the fundamentals of software development and computer science.",
+        "tags": ["CS Fundamentals"],
+        "icon": "graduationCap"
+      },
+      {
+        "year": "2021",
+        "title": "University & Advanced Learning",
+        "description": "Deepened knowledge in algorithms, data structures, and system design while pursuing a CS degree.",
+        "tags": ["C++", "Java", "DSA"],
+        "icon": "bookOpen"
+      },
+      {
+        "year": "2022",
+        "title": "Web Development & Frameworks",
+        "description": "Mastered modern frontend frameworks and started building full-stack applications.",
+        "tags": ["React", "Node.js", "MongoDB"],
+        "icon": "code"
+      },
+      {
+        "year": "2023",
+        "title": "Ecosystem Architecture",
+        "description": "Shifted focus from isolated projects to designing interconnected software ecosystems.",
+        "tags": ["System Design", "Architecture"],
+        "icon": "cpu"
+      }
+    ]
+  },
+  "achievements": {
+    "title": "Achievements & Certificates",
+    "items": [
+      {
+        "title": "100+ Projects Completed",
+        "description": "Successfully delivered diverse web projects ranging from landing pages to complex web applications.",
+        "icon": "trophy"
+      },
+      {
+        "title": "5-Star Client Rating",
+        "description": "Maintained excellent client satisfaction with consistent 5-star ratings across freelance platforms.",
+        "icon": "star"
+      },
+      {
+        "title": "Web Development Certification",
+        "description": "Certified in modern web development technologies and best practices.",
+        "icon": "fileBadge"
+      },
+      {
+        "title": "4+ Years Experience",
+        "description": "Dedicated years of continuous learning and professional growth in software development.",
+        "icon": "clock"
+      },
+      {
+        "title": "50+ Happy Clients",
+        "description": "Built lasting relationships with clients worldwide, delivering solutions that drive their business success.",
+        "icon": "users"
+      },
+      {
+        "title": "Open Source Contributor",
+        "description": "Active contributor to open source projects and web development community initiatives.",
+        "icon": "gitFork"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Highlighted Projects",
+    "status": {
+      "in_dev": "In Development",
+      "completed": "Completed"
+    },
+    "items": [
+      {
+        "title": "Xeno Mini",
+        "status": "in_dev",
+        "description": "A social platform with authentication, posting, and real-time communication features. Currently in MVP stage.",
+        "tags": [
+          { "name": "React", "color": "#61dafb" },
+          { "name": "Node.js", "color": "#539e43" },
+          { "name": "MongoDB", "color": "#47a248" }
+        ]
+      },
+      {
+        "title": "Landing Page",
+        "status": "completed",
+        "description": "A modern landing page design showcasing responsive layout, animations, and smooth UI.",
+        "tags": [
+          { "name": "HTML", "color": "#e34f26" },
+          { "name": "CSS", "color": "#264de4" },
+          { "name": "JavaScript", "color": "#f0db4f" }
+        ]
+      },
+      {
+        "title": "Movie App",
+        "status": "completed",
+        "description": "A movie discovery application with search, watchlist, and rating features.",
+        "tags": [
+          { "name": "HTML", "color": "#e34f26" },
+          { "name": "CSS", "color": "#264de4" },
+          { "name": "JavaScript", "color": "#f0db4f" }
+        ]
+      },
+      {
+        "title": "E-Commerce",
+        "status": "completed",
+        "description": "A fully functional e-commerce frontend with product catalog, cart, and checkout flow.",
+        "tags": [
+          { "name": "HTML", "color": "#e34f26" },
+          { "name": "CSS", "color": "#264de4" },
+          { "name": "JavaScript", "color": "#f0db4f" }
+        ]
+      }
+    ],
+    "cta_view": "View Project",
+    "cta_code": "View Code"
+  },
+  "contact": {
+    "title": "Contact Me",
+    "subtitle": "Let's Collaborate",
+    "description": "I'm open to freelance projects, collaborations, or consulting opportunities. Reach out, and let's build something amazing together.",
+    "info": {
+      "email": {
+        "label": "Email",
+        "value": "hassan0deghedy@gmail.com"
+      },
+      "phone": {
+        "label": "Phone",
+        "value": "+20 100 000 0000"
+      },
+      "location": {
+        "label": "Location",
+        "value": "Cairo, Egypt"
+      }
+    },
+    "form": {
+      "name": "Your name",
+      "email": "your.email@example.com",
+      "subject_label": "Select a subject",
+      "subjects": {
+        "placeholder": "Select a subject",
+        "project": "Project Collaboration",
+        "freelance": "Freelance Work",
+        "consulting": "Consulting",
+        "other": "Other"
+      },
+      "message": "Your message...",
+      "email_label": "Email",
+      "message_label": "Message",
+      "sending": "Sending...",
+      "submit": "Send Message",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "errors": {
+        "name_min": "Name must be at least 2 characters",
+        "name_max": "Name must be less than 50 characters",
+        "email_invalid": "Please enter a valid email",
+        "subject_required": "Please select a subject",
+        "message_min": "Message must be at least 10 characters",
+        "message_max": "Message must be less than 1000 characters"
+      }
+    }
+  },
+  "footer": {
+    "title": "Software Developer & Startup Builder",
+    "tagline": "I don't build apps. I build ecosystems.",
+    "copyright": "© 2025 Hassan El-Deghidy. All rights reserved."
+  },
+  "language": {
+    "label": "Language",
+    "en": "English",
+    "ar": "العربية",
+    "ru": "Русский"
+  }
+}
