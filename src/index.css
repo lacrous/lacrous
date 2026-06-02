@@ -115,6 +115,7 @@
   /* Hero section is always dark for 3D scene visibility */
   .hero-dark {
     background-color: #0f172a !important;
+    overflow-x: hidden;
   }
   [data-theme="light"] .hero-dark {
     background: linear-gradient(180deg, #0f172a 0%, #0f172a 85%, #f1f5f9 100%) !important;
@@ -175,7 +176,10 @@
     transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
   }
 
-  html {
+  html,
+  body {
+    overflow-x: hidden;
+    max-width: 100vw;
     scroll-behavior: auto; /* Lenis handles smooth scroll */
   }
 
@@ -184,7 +188,6 @@
     background-color: var(--bg-primary);
     color: var(--text-primary);
     line-height: 1.7;
-    overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
@@ -268,6 +271,8 @@
     margin: 0 auto;
     padding-left: var(--container-padding-x);
     padding-right: var(--container-padding-x);
+    width: 100%;
+    box-sizing: border-box;
   }
 
   /* Button primary */
@@ -508,37 +513,26 @@
 }
 
 /* ===== Timeline Vertical Line ===== */
-.timeline-container {
-  position: relative;
-}
-.timeline-container::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 2px;
-  background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
-  z-index: 0;
-}
-
-/* Timeline vertical line for mobile */
-.timeline-container .lg\:hidden::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 21px;
-  width: 2px;
-  background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
-  z-index: 0;
+/* Desktop only: centered vertical line behind alternating cards */
+@media (min-width: 1024px) {
+  .timeline-container {
+    position: relative;
+  }
+  .timeline-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
+    z-index: 0;
+  }
 }
 
-[dir="rtl"] .timeline-container .lg\:hidden::before {
-  left: auto;
-  right: 21px;
-}
+/* Mobile: NO vertical line - cards stack in single column with markers only */
+/* The marker dots themselves act as the timeline visual */
 
 /* ===== RTL Support for Arabic ===== */
 [dir="rtl"] {

@@ -249,6 +249,16 @@
         ]
       },
       {
+        "title": "Weather App",
+        "status": "completed",
+        "description": "A real-time weather application with location-based forecasts, temperature tracking, and dynamic weather icons.",
+        "tags": [
+          { "name": "HTML", "color": "#e34f26" },
+          { "name": "CSS", "color": "#264de4" },
+          { "name": "JavaScript", "color": "#f0db4f" }
+        ]
+      },
+      {
         "title": "E-Commerce",
         "status": "completed",
         "description": "A fully functional e-commerce frontend with product catalog, cart, and checkout flow.",

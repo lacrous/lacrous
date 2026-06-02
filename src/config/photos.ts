@@ -15,6 +15,7 @@ export const PHOTOS = {
   projects: {
     xeno: '/assets/projects/project-xeno.jpg',       // Xeno Mini screenshot
     landing: '/assets/projects/project-landing.jpg',   // Landing Page screenshot
+    weather: '/assets/projects/project-weather.jpg',   // Weather App screenshot
     movie: '/assets/projects/project-movie.jpg',       // Movie App screenshot
     ecommerce: '/assets/projects/project-ecommerce.jpg', // E-Commerce screenshot
   },

@@ -249,6 +249,16 @@
         ]
       },
       {
+        "title": "Weather App",
+        "status": "completed",
+        "description": "Приложение погоды в реальном времени с прогнозами на основе местоположения, отслеживанием температуры и динамическими иконками.",
+        "tags": [
+          { "name": "HTML", "color": "#e34f26" },
+          { "name": "CSS", "color": "#264de4" },
+          { "name": "JavaScript", "color": "#f0db4f" }
+        ]
+      },
+      {
         "title": "E-Commerce",
         "status": "completed",
         "description": "Полнофункциональный e-commerce фронтенд с каталогом продуктов, корзиной и оформлением заказа.",

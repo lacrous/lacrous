@@ -4,8 +4,19 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import SectionTitle from '@/components/SectionTitle';
 import ProjectCard from '@/components/ProjectCard';
+import { PHOTOS } from '@/config/photos';
+import { PROJECT_LINKS } from '@/config/projects';
 
 gsap.registerPlugin(ScrollTrigger);
+
+// Map project titles to their images
+const projectImageMap: Record<string, string> = {
+  'Xeno Mini': PHOTOS.projects.xeno,
+  'Landing Page': PHOTOS.projects.landing,
+  'Weather App': PHOTOS.projects.weather,
+  'Movie App': PHOTOS.projects.movie,
+  'E-Commerce': PHOTOS.projects.ecommerce,
+};
 
 export default function ProjectsSection() {
   const { t } = useTranslation();
@@ -55,16 +66,22 @@ export default function ProjectsSection() {
         <SectionTitle title={t('projects.title')} />
 
         <div className="max-w-4xl mx-auto space-y-8">
-          {items.map((project) => (
-            <div key={project.title} className="project-card-wrapper">
-              <ProjectCard
-                title={project.title}
-                description={project.description}
-                status={project.status}
-                tags={project.tags}
-              />
-            </div>
-          ))}
+          {items.map((project) => {
+            const links = PROJECT_LINKS[project.title];
+            return (
+              <div key={project.title} className="project-card-wrapper">
+                <ProjectCard
+                  title={project.title}
+                  description={project.description}
+                  status={project.status}
+                  tags={project.tags}
+                  image={projectImageMap[project.title]}
+                  githubUrl={links?.github}
+                  liveUrl={links?.live}
+                />
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
