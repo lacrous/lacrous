@@ -27,5 +27,5 @@ Long term: a connected portfolio of products that share infrastructure, scale in
 ## 🤝 Find me
 
 - GitHub: [github.com/nurovia-dev](https://github.com/nurovia-dev)
-- X: [@your_handle](https://twitter.com/nurovia)
+- X: [@lacrous](https://twitter.com/lacrous)
 - Email: `hello@nurovia.com`
