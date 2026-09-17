@@ -1,66 +1,60 @@
+<h1 align="center">Hey, I'm Hassan El-Deghedy 👋</h1>
+
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com.font.googleapis.com/font?family=Fira+Code&center=true&vCenter=true&width=400&height=45&duration=3000&pause=1000&color=39FF14&multiline=true&repeat=true&width=400&height=45&lines=hey%2C+im+hassan;full-stack+%7C+ai+systems+%7C+linux" alt="typing svg" />
+  <i>Full-Stack Developer · AI Systems Engineer · Open Source Builder</i>
 </p>
 
-```
- _   _                      _              ____            
-| | | | ___  _ __ ___  _ __| | ___  _ __  |  _ \ _ __ _____ 
-| |_| |/ _ \| '_ ` _ \| '_ \ |/ _ \| '__| | |_) | '__/ _ \ |
-|  _  | (_) | | | | | | |_) | (_) | |    |  __/| | |  __/ |
-|_| |_|\___/|_| |_| |_|_.__/ \___/|_|    |_|   |_|  \___|_|
-```
+<p align="center">
+  <a href="https://github.com/lacrous"><img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"></a>
+  <a href="https://twitter.com/lacrous"><img alt="X" src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"></a>
+  <a href="https://linkedin.com/in/lacrous"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</p>
 
 ---
 
-```
-hassan@github ~ $ whoami
-```
+### 🧑‍💻 About Me
 
-Full-stack developer & AI systems engineer.
-Founder of Hilbras — building autonomous AI computing ecosystems.
+- 🔭 I'm currently building **[Hilbras](https://github.com/Hilbras)** — autonomous AI computing ecosystems
+- 🌱 I'm currently exploring **AI agents**, **multi-agent systems**, and **Linux internals**
+- 💬 Ask me about full-stack development, AI infrastructure, or systems engineering
+- 🎓 Programming student & founder of [Hilbras](https://github.com/Hilbras)
+- 🌍 Based in Egypt
 
-```
-hassan@github ~ $ cat /etc/stack
-```
+---
+
+### 🛠️ Tech Stack
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,py,rs,php,bash" title="TypeScript, Python, Rust, PHP, Bash" alt="Languages" />
+  <img src="https://skillicons.dev/icons?i=ts,py,rs,php,bash,html,css,sql" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nodejs,vite,docker,linux" title="React, Node.js, Vite, Docker, Linux" alt="Tools" />
+  <img src="https://skillicons.dev/icons?i=react,nodejs,vite,docker,linux,git" />
 </p>
 
-```
-hassan@github ~ $ ls ./projects
-```
+---
 
-| Project | Description |
-|---------|-------------|
-| **Hilbras** | Autonomous AI computing ecosystem |
-| **Hilbras AI SDK** | Multi-provider AI SDK with model routing |
-| **Hilbras OS** | Experimental AI-native operating system |
-| **Spectra** | Security analysis platform |
-
-```
-hassan@github ~ $ uptime
-```
+### 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=lacrous&theme=dark&background=0d1117&ring=39FF14&fire=39FF14&currStreakLabel=39FF14&sideLabels=8b949e" alt="streak" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=lacrous&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=lacrous&theme=tokyonight" />
 </p>
 
-```
-hassan@github ~ $ contact --list
-```
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lacrous&layout=compact&theme=tokyonight" />
+  <img width="48%" src="https://github-readme-activity-graph.vercel.app/graph?username=lacrous&theme=tokyonight" />
+</p>
+
+---
+
+### 🏆 Trophies
 
 <p align="center">
-  <a href="https://github.com/lacrous"><img src="https://img.shields.io/badge/GitHub-8b949e?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-  <a href="https://twitter.com/lacrous"><img src="https://img.shields.io/badge/X-8b949e?style=for-the-badge&logo=x&logoColor=white" alt="X"/></a>
-  <a href="https://linkedin.com/in/lacrous"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <img src="https://github-profile-trophy.vercel.app/?username=lacrous&theme=tokyonight&no-frame=true&column=7" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=lacrous&label=visitors&color=39FF14&style=flat-square" alt="visitors"/>
+  <img src="https://komarev.com/ghpvc/?username=lacrous&label=Profile+Views&color=blueviolet&style=flat" alt="Profile Views" />
 </p>
